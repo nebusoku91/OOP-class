@@ -4,13 +4,17 @@
 
 Hemsida webpage = new Hemsida();
 string welcomeMsg = "Välkommen till detta program";
+int int01 = 2;
+int int02 = 3;
+int sum = int01 + int02;
+Console.WriteLine("Min favoritsiffra är " + sum);
 
 webpage.printMain();
 
 class Hemsida
 {
-    public string[] messagesToClass = { "Glöm inte att övning ger färdighet!", "Öppna boken på sida 257." };
-    string klassNamn = "Klass 2B";
+    public string[] messagesToClass = { "Glöm inte att övning ger färdighet!", "Öppna boken på sida 192." };
+    string klassNamn = "Klass 1A";
     string start = "<!DOCTYPE html>\n<html>\n<body>\n<h1>Välkomna!";
     string end = "<main>\n<p>Kurs om C#</p>\n<p>Kurs om databaser</p>\n</main>\r\n</body>\r\n</html>";
 
