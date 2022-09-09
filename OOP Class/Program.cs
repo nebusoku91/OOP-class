@@ -3,6 +3,7 @@
 // Detta är ett meddelande
 
 Hemsida webpage = new Hemsida();
+string welcomeMsg = "Välkommen till detta program";
 
 webpage.printMain();
 
